@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Lectura de carácteres especiales-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Guitarra.png" type="image/x-icon">
+    <title>Inicio</title> <!--Nombre de la página--> 
+
+    <!--En head solo vamos a agregar: 
+    Etiquetas meta(metadatos),
+    El título de la página, (<tittle>) que se ve en la pestaña del navegador
+    Ícono de la pestaña 
+    Librerias (En caso de traer estilos, tipografías...) de otros sitios
+    NO VA contenido de la página web 
+    -->
+</head>
+
+<body>
+        <!--TODO EL CONTENIDO VISUAL-->
+        
+        <!--1. Títulos de contenido (Encabezados)-->
+        <h1>Hola</h1> <!--h1 título principal-->
+        <h2>Subtitulos</h2>
+        <h3>Subtitulos</h3>
+        <h4>Subtitulos</h4>
+        <h5>Subtitulos</h5>
+        <h6>Subtitulos</h6>   
+
+        pollito
+
+        <!--2. Párrafos-->
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A sint numquam tempore, quisquam ipsam asperiores, saepe laudantium laborum, corporis itaque sapiente dolorem aperiam. Facilis quae ut error libero repellendus perspiciatis.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquam consequuntur nisi. Temporibus alias quod quasi nesciunt at molestiae sint aliquam ipsa ea, labore soluta recusandae nemo unde officiis dicta. pp
+        </p>
+        <!--3. Enlaces-->
+        <a href="https://drive.google.com/drive/home">Ir a Google drive</a>
+        <!--El atributo href= me permite especificar cual es la URL a la cual
+        vamos a dirigirnos-->
+
+        <br><br> <!--br es salto de línea, sirve, lo usaremos en html solamente, luego en css
+        no se utilizará -->
+        <a href="estudiantes.html">Página estudiantes</a>
+       
+        <br><br>
+        <a href="https://www.facebook.com/?locale=es_LA" target="_blank">Ir a facebook</a>
+        <!--target="_blank" para inidcar que ese enlace se abra en una pestaña nueva-->
+
+        <h1>Etiquetas de formato de texto</h1>
+        <b>Texto en negrilla</b><!--Sin importancia destacable, pero se pone en negrilla-->
+        <br>
+        <strong>Otro texto en negrilla</strong><!--Rexto importante y relevante, y lo pone en negrilla-->
+        <br>
+        <i>Texto en cursiva</i>
+        <br>
+        <u>Texto subrayado</u>
+        <br>
+        <s>Texto tachado</s>
+        <br>
+        <mark>Texto resaltado</mark>
+        <br>
+        <marquee behavior="alternate" direction="right" scrollamount="30">Esto es un texto en movimiento</marquee>
+        <br>
+        <center>Texto en el medio</center>
+        <!--Aparece en rojo porque está obsoleta, ya que se usa más fácil
+        desde el css, pero, el navegador todavía lo interpreta-->
+        <br>
+        <b><i><u><s><mark>Combinacion de formatos</mark></s></u></i></b>
+        <p>
+            Lorem ipsum dolor sit, amet <b>consectetur</b> adipisicing elit. Nostrum amet corporis, optio voluptates adipisci quidem dolor blanditiis architecto error. Omnis facere, sint earum eum praesentium voluptates quasi eligendi voluptas <mark>similique</mark>.
+            <!--Nota: con alt+z, el texto se encuadra, o se hace el word wrap-->
+        </p>
+
+        <h1>Etiquetas de lista</h1>
+
+        <h2>Lista no ordenadas: Listas en viñetas</h2>
+        <ul>
+            <li>Rojo</li>
+            <li>Verde</li>
+            <li><b>Negro</b></li>
+            <li>Azul</li>
+            <li><mark>Amarillo</mark></li>
+        </ul>
+        <h2>Lista Ordenada: Listas númericas</h2>
+        <ol>
+            <li>Verstappen</li>
+            <li>Hamilton</li>
+            <li>LeClerc</li>
+            <li>Rusell</li>
+            <li>Tsunoda</li>
+        </ol>
+
+    <h1>Archivos Multimedia</h1>
+    <img src="img/Boss Overdrive.jpg" alt="Pedal Boss Overdrive" width="200px" height="450">
+    <!--Src es el atributo para poner la ruta de la imagen en específico-->
+    <!--alt es el nombre de la imagen, sirve
+     para ubicarla en caso de que se pierda, borre, o no exista -->
+    <!-- width es para modificar el ancho -->
+    <!-- height es para modificar el alto, y px (pixeles) es la unidad de medida -->
+
+    <h3>Imagen con enlace</h3>
+
+    <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank">
+        <img src="img/Youtube_logo.png" alt="Youtube_logo" width="100px">
+    </a>
+    <hr>
+    <!-- hr es un br pero visual, genera una linea -->
+     <video controls width="800px">
+        <source src="video/Jcole.mp4" type="">
+     </video>
+
+    <h1>Tablas en HTML</h1>
+    
+    <table border="2">
+        <tr> <!--Abrir una fila-->
+            <th colspan="4">Información de usuarios</th>
+        </tr><!--Cerrar una fila-->
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Ciudad</th>
+            <th>Teléfono</th>
+        </tr>
+        <tr>
+            <td>Camila</td>
+            <td>Ruiz</td>
+            <td>Cali</td>
+            <td>33391238</td>
+        </tr>
+    </table>
+
+<br>
+<br>
+
+    <table border="">
+        <tr>
+            <th>Celda 1</th>
+            <th>Celda 2</th>
+            <th>Celda 3</th>
+            <th>Celda 4</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Celda 5</d>
+            <td>Celda 6</td>
+            <td colspan="2">Celda 7</td>
+        </tr>
+        <tr>
+            <td>Celda 8</td>
+            <td>Celda 9</td>
+            <td rowspan="2">Celda 10</td>
+        </tr>
+        <tr>
+            <td colspan="2">Celda 11</td>
+        </tr>
+        <!-- Colspan y Rowspan sirve para que una celda ocupe mas columnas o mas celdas -->
+    </table>
+
+<br>
+<br>
+
+    <table border="">
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>8:00-9:00</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Lengua</td>
+            <td>Música</td>
+            <td></td>
+            <td rowspan="2">Matemáticas</td>
+        </tr>
+        <tr>
+            <td>9:00-10:00</td>
+            <td>Inglés</td>
+            <td>Inglés</td>
+            <td>E.Física</td>
+        </tr>
+        <tr>
+            <td>10:00-10:30</td>
+            <td colspan="5">Recreo</td>
+        </tr>
+        <tr>
+            <td>10:30-11:30</td>
+            <td>E. Física</td>
+            <td>Valenciano</td>
+            <td rowspan="2">Lengua</td>
+            <td>Informática</td>
+            <td>Inglés</td>
+        </tr>
+        <tr>
+            <td>12:30-13:30</td>
+            <td>Música</td>
+            <td>E.Física</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Informática</td>
+        </tr>
+        <tr>
+            <td>13:30-14:30</td>
+            <td></td>
+            <td>Informática</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+<br>
+    <h1>Formularios en HTML</h1>
+
+    <form action="">
+        <label for="">Nombre:</label>
+        <input type="text" placeholder="Nombre">
+        <!-- el type text permite escribir de todo, es el más común, es cómo un tipo string -->
+        <!-- El place holder es el texto guía que aparece dentro de la caja, que se borra al escribir -->
+         <br><br>
+         <label for="">Número de Contacto:</label>
+         <input type="number" name="" id="" placeholder="Número">
+         <!-- type number hace que el usuario solamente pueda escribir números -->
+         <br><br>
+         <label for="">Correo Electrónico</label>
+         <input type="email" name="" id="" placeholder="Direacción E-Mail">
+         <!-- type email se usa para correos, debe contener el @ y la etiqueta seguidos del @, además, lee los datos de navegacion para autocompletar correos guardados -->
+         <br><br>
+         <label for="">Contraseña</label>
+         <input type="password" name="" id="" placeholder="Contraseña">
+         <!-- type password es para contraseñas, el texto ingresado sale censurado, puede autocompletar contraseñas, y algunos navegadores ya tiene incluido el ojo para ver el texto -->
+         <br><br>
+         <label for="">Fecha de Nacimiento:</label>
+         <input type="date" name="" id="">
+         <!-- typle date es para fechas, añade un calendario para seleccionar la fecha, y ya viene con placeholder -->
+         <br><br>
+        <label for="">Seleccione la fecha y la hora de su cita</label>
+        <input type="datetime-local" name="" id="">
+        <!-- Para agregar fecha y hora, tambien viene con placeholder -->
+         <br><br>
+         <label for="">Seleccione su Género</label>
+         <br>
+         <input type="radio" name="Género" id="">
+         <label for="">Femenino</label>
+         <br>
+         <input type="radio" name="Género" id="">
+         <label for="">Masculino</label>
+         <br>
+         <input type="radio" name="Género" id="">
+         <label for="">Otro</label>
+         <!-- type radio genera la bolita para rellenar, y, le pongo el mismo name a los 3 labels para que se el navegador sepa que de esos 3 solo puede seleccionar uno. -->
+         <br><br>
+         <label for="">Seleccione la ciudad</label>
+         <select name="" id="">
+            <option value="" disabled>Seleccione una ciudad</option>
+            <option value="">Medellín</option>
+            <option value="">Bogotá</option>
+            <option value="">Cali</option>
+        <!-- Para una lista con opciones se usa select, para generar la lista, y options para agregar las opciones, disabeled desabilita una opción -->
+         </select>
+
+        <br> <br>
+            <input type="checkbox" name="" id="" required>
+            <label for="">Aceptas términos y condiciones</label>
+         <!-- type checkbox para chulear algo, generalmente términos y condiciones, required es un atributo que se le puede poner a todos los inputs, y los hace obligatorios, no se puede continuar hasta que se seleccione-->
+        <br><br>
+        <input type="button" value="Enviar Datos">
+        <input type="submit" value="Guardar Datos">
+        <input type="reset" value="Limpiar Datos">
+        <!-- Button es programable luego con js, sumbit va de la mano con el <form action>, para sacar los datos suministrados, y el reset, limpia los datos de el formulario -->
+         
+         
+         
+
+    </form>
+</body>
+</html>

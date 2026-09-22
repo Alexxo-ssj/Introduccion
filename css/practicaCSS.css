@@ -1,0 +1,41 @@
+body{
+    background-color: #ccd3f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#imagen{
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+
+#principal{
+    background-color: rgb(133, 186, 233);
+    text-align: center;
+    color: rgba(3, 3, 146, 0.664);
+}
+
+#nombreCuento{
+    background-color: #a8b7f1;
+    text-align: center;
+    color: rgba(3, 3, 146, 0.664);
+    font-size: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.verde{
+    background-color: rgb(150, 238, 139);
+    color: rgba(0, 58, 14, 0.664);
+    font-size: 14px;
+}
+
+footer{
+    background-color: rgb(71, 71, 71);
+}
+
+#derechos {
+    text-align: center;
+    color: white;
+}

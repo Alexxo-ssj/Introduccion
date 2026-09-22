@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+.padre1{
+    margin: 8px;
+    padding: 9px;
+    border: 1px solid;
+}
+.cuadritos{
+    margin-top: 9px;
+}
+
+.cuadritos div{
+    width: 67px;
+    height: 67px;
+    display: inline-block;
+}
+
+.verdeClaro{
+    background-color: greenyellow;
+}
+
+.verdeOscuro{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.rectangulos div{
+    width: 640px;
+    height: 150px;
+    display: inline-block;
+}
+
+.AzulTurquesa{
+    background-color: teal;
+}
+
+.AzulOscuro{
+    background-color: rgb(3, 3, 92);
+}
+
+.mitad{
+    position: relative;
+
+    padding: 0px 150px;
+}
+
+.mitad div{
+    width: 500px;
+    height: 150px;
+    display: inline-block;
+    
+}
+
+.mitad  .AzulTurquesa{
+    position: relative;
+    right: 0;
+}
+
+.mitad .AzulOscuro{
+    position: relative;
+    
+}
+
+.mitad .Rojo{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+.Rojo1{
+    position: absolute;
+    bottom: 0;
+}
+
+
+ .Rojo2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }

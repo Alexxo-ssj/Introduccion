@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/posiciones.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="clase2.html">Clase 1</a></li>
+                    <li><a href="ActividadPractica.html">Actividad Practica</a></li>
+                    <li><a href="ejercicio_de_listas.html">Ejercicio de Listas</a></li>
+                    <li><a href="caja.html">Caja</a></li>
+                </ul>
+            </nav>
+    </header>
+            <main>
+                <section class="static">
+                    <h1>Posición Static</h1>
+                    <p>
+                        Es la posición que viene por defecto para los elementos de HTML,
+                        no se pueden mover de su posición inicial, siempre está ubicada a la izquierda.
+                    </p>
+                </section>
+                <section class="relative">
+                    <h1>Posición Relativa</h1>
+                    <p>
+                        Esta posición permite move un elemento desde sus 4 puntos de orientación (Top, Bottom, Left, Right) sin embargo deja rastro de su posición inicial.
+                    </p>
+                    <div>Elemento 1</div>
+                    <div class="relative1">Elemento 2</div>
+                    <div>Elemento 3</div>
+                    <div class="relative2">Elemento 4</div>
+                </section>
+                <section class="absolute">
+                    <h1>Posición Absoluta</h1>
+                    <p>
+                        Se posiciona al contenedor padre más cercano con posición relativa o al body si no hay ningún contenedor con posición relativa, este también puede moverse en sus 4 lados y altera el flujo de los demás contenedores ya que no deja rastro de su posición inicial. 
+                    </p>
+                    <div class="padrerel">
+                        <div>Hijo 1</div>
+                        <div class="hijoabs">Hijo 2</div>
+                        <div>Hijo 3</div>
+                    </div>
+                </section>
+                <section class="fixed">
+                    <img src="img/whatsapp-logo-png_seeklogo-168310.png" alt="whasa" width="50px">
+                </section>
+            </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

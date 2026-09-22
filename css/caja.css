@@ -1,0 +1,61 @@
+.borde1{
+    background-color: lightcoral;
+    width: 300px;
+    height: 200px;
+    border-top: 2px solid blue;
+}
+.relleno{
+    background-color: lightslategray;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    padding: 12px;/* 12px se aplica a todos, si no especifica */
+    padding: 12px 6px;/* 12 px es para el top y el bottom, 6 px es para la derecha y la izquierda */
+    padding: 12px 6px 4px; /* así, se aplica 12 al top, 6px right y left, 4px bottom, (clockwise) */
+    padding-top: 1;
+    padding-right: 2;
+    padding-bottom: 3;
+    padding-left: 4;
+    border-radius: 10px;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid;
+}
+img{
+    width: 200px;
+    border-radius: 50%;/* para que quede un circulo perfecto el ancho y alto debe ser el mismo */
+}
+
+.bordes{
+    padding: 15px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.bottom{
+    padding: 15px;
+    border-bottom: 1px solid red;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.round{
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.blue{
+    padding: 15px;
+    border-left: 5px solid blue;
+    background-color: lightskyblue;
+    width: 300px;
+}
+
+.boss{
+    margin: auto;
+}

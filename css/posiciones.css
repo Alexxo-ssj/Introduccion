@@ -1,0 +1,115 @@
+*/* Selector Universal: Selecciona a TODOS los elementos del html, incluso la etiqueta body */
+{
+    margin: 0; /* con esta regla, todos los elementos tendran margen de 0, así controlo yo mismo las
+                margenes */
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+body{
+    background-color: rgb(250, 233, 210);
+}
+
+nav{
+    background-color: rgb(234, 243, 243);
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 18px;
+    padding: 9px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav a:hover{
+    border-bottom: 1px solid;
+    padding-bottom: 18px;
+    color: palevioletred;
+}
+
+main section{
+        margin: 15px;
+}
+
+.static{
+
+    background-color: rgb(235, 180, 159);
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    position: static;
+    top: 10px;
+}
+
+.relative div{
+    background-color: lightgrey;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.relative p{
+    margin-bottom:10px ;
+}
+
+.relative1{
+    position: relative;
+    left: 500px;
+    top: 100px;
+}
+
+.padrerel{
+    width: 600px;
+    height: 500px;
+    border: 2px solid rgb(167, 243, 167);
+    position: relative;
+}
+
+.padrerel div{
+    width: 150px;
+    height: 150px;
+    background-color: lightpink;
+}
+
+.hijoabs{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
